@@ -9,13 +9,14 @@ public class ConvertToBinary {
     }
     else{
      int rem=0;
+     int num=n;
      string  output_num="";
-     while(n!=0){
+     while(num!=0){
       rem = n%2;
-      n = n/2;
+      num = num/2;
       output_num = rem+output_num
      }   
     }
-    return ouputnum;
+    return ouput_num;
   }
 }
